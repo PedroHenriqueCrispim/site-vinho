@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+<html>
+<head>
+	<title>Cadastro de Usuário</title>
+	<script>
+		function enviarFormulario() {
+		// código para enviar o formulário, se necessário
+		alert("Obrigado por entrar em contato conosco! Entraremos em contato em breve.");
+		}
+	</script>
+</head>
+<body>
+	
+	<div class="menu">
+		<nav>
+            <ul>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="empresa.html">A empresa</a></li>
+                <li><a href="materia.html">Matéria-prima</a></li>
+                <li><a href="produto.html">O produto final</a></li>
+                <li ><a href="logincadastro.html" id="login">Login/Cadastro</a></li>
+            </ul>
+         </nav>
+	</div>
+	<div class="containercadastro">
+      
+		<div class="titulocadastro">
+			<a href="index.html"><img src="./imagens/Logo-vinheria-agnello.png" alt="logo da vinheira" id="logo"></a>
+			<h2>Cadastro de Usuário</h2>
+			<a href="carrinho.html"><img src="/imagens/carrinho.png" id="carrinho" ></a>
+		</div>
+		<div id="centralizar-formulario">
+		<section class="formulario">
+			<div id="cadastro-metade-1">
+			
+				  <label for="email">Email:</label><br>
+				  <input type="text" name="email" id="email">
+				<br><br>
+				  <label for="confirme-seu-email">Confirme o E-mail:</label><br>
+				  <input type="email" name="confirme-seu-email" id="confirme-seu-email">
+				<br><br>
+				  <label for="senha">Senha:</label><br>
+				  <input type="password" name="senha" id="senha">
+				  <br><br>
+				  <label for="confirma-senha">Confirme a senha:</label><br>
+				  <input type="password" name="confirma-senha" id="confirma-senha">
+				<br><br>
+				  <label for="nome">Nome:</label><br>
+				  <input type="name" name="nome" id="nome">
+				<br><br>
+				  <label for="sobrenome">Sobrenome:</label><br>
+				  <input type="sobrenome" name="sobrenome" id="sobrenome"><br><br>
+				  <button id="botao-tela-cadastro" onsubmit="return validarFormulario();">Cadastrar</button><br>
+				</div>
+				<div id="cadastro-metade-2">
+				  <label for="cpf">CPF:</label><br>
+				  <input type="cpf" name="cpf" id="cpf">
+				<br><br>				
+				  <label for="celular">CELULAR:</label><br>
+				  <input type="celular" name="celular" id="celular">
+				<br><br>				
+				  <label for="cep">CEP:</label><br>
+				  <input type="cep" name="cep" id="cep">
+				<br><br>
+				  <label for="rua">RUA:</label><br>
+				  <input type="rua" name="rua" id="rua">
+				<br><br>
+				  <label for="numero">Numero:</label><br>
+				  <input type="numero" name="numero" id="numero">
+				<br><br>
+				  <label for="estado">Estado:</label><br>
+				  <input type="estado" name="estado" id="estado">
+				<br><br>
+				  <label for="complemento">Complemento:</label><br>
+				  <input type="complemento" name="complemento" id="complemento">
+				<br>
+				<br>
+				
+			</div>
+			  </form>
+		</section>
+	</div>
+
+
+	</div>
+
+<footer>
+		<div>
+				<p id="contato">Meios para contato: </p>
+				<img src="/imagens/whatsapp.png">
+				<img src="/imagens/instagram.png">
+				<img src="/imagens/facebook.png">
+				<img src="/imagens/gmail.png">
+			</div>
+			<div id="local"><p>Onde nos achar:</p>
+				<p id="local2">Estamos em mudança. Novo endereço em breve...</p>
+			</div>
+			<div  id="direitos"><p>@2023-Todos os direitos reservados.</p></div>
+	</footer>
+
+    <script src="script.js"></script>
+</body>
+</body>
+</html>

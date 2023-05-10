@@ -1,0 +1,435 @@
+body{
+    background-color: #DDC4C4;
+}
+
+.container{
+    overflow:auto;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+#containercentral{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 860px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containercadastro{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containercomprarealizada{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.menu{
+    background-color: #7B253A;
+    border-color: black;
+    text-align: center;
+    width:100%;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+     
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    margin: 40px;
+    padding: 4px;
+}
+
+.menu ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    padding: 4px;
+}
+
+.menu2{
+    background-color: #BC8282;
+    text-align: center;
+    width:100%;
+    height: 24px;
+}
+
+.menu2 ul li{
+    list-style: none;
+    display: inline;
+    margin: 40px;
+    padding: 4px;
+}
+
+.menu2 ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu2 ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    padding: 4px;
+}
+
+.navindex ul li{
+    list-style: none;
+    padding: 50px;
+    
+}
+
+.navindex ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#BC8282;
+}
+
+.navindex ul li a:hover{
+    text-decoration: underline;
+}
+
+#login{
+    font-weight: lighter;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #BC8282;
+    margin-top: 50px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+#direitos{
+    text-decoration: underline;
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+
+#form-contato{
+    border-radius: 20px;
+    background-color: #7B253A;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+
+#textoEmpresa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+    
+}
+
+#imagemEmpresa{
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 28px;
+}
+
+#divEmpresa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 90px;
+}
+
+#LC{
+ font-family: Arial, Helvetica, sans-serif;
+ color: #7B253A;
+}
+
+#fazerlogin{
+    background-color: #7B253A;
+    border-radius: 28px;
+    text-align: center;
+    padding: 20px;
+}
+
+#textoLC{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+
+#LC{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-right: 80px;
+}
+
+#seclog{
+    border-radius: 28px;
+    background-color: #d69cab;
+    margin-top: 10%;
+    width: 500px;
+    height: 400px;
+    margin-left: 2px;
+}
+
+#pagelogin{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#form-login{
+    font-size: 40px;
+    text-align: left;
+}
+
+#botao-tela-cadastro{
+    width: 200px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+#botao-tela-cadastro:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+#botao-tela-login:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+#botao-tela-login{
+    width: 170px;
+    height: 80px;
+    border-radius: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#cadastrobotao{
+    background-color: #7B253A;
+    border-radius: 28px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+#loginbotao{
+    background-color: #7B253A;
+    border-radius: 28px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+#cadastrobotao:hover{
+    background-color: #BC8282;
+    color:#7B253A;
+}
+
+#loginbotao:hover{
+    background-color: #BC8282;
+    color: #7B253A;
+}
+
+#botoes{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.titulocadastro{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+#fotomenu{
+    margin-top: 100px;
+}
+
+.formulario{
+    background-color: #7B253A;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    gap: 50px;
+    width: fit-content;
+
+}
+
+#centralizar-formulario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-container {
+    height: 450px;
+    width: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    
+  }
+  
+.carousel {
+    position: relative;
+    display: flex;
+    transition: left 0.5s;
+    margin-top: 25px;
+    }
+  
+.item {
+    background-color: #7B253A;
+    color: #fff;
+    border-style: dashed;
+    border-color: #BC8282;
+    border-radius: 28px;
+    flex: 0 0 auto;
+    width: calc(85% / 3);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline;
+  }
+  
+  .item img {
+    max-width: auto;
+    height: 100px;
+  }
+  
+  .item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+  }
+  
+  .item p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .item .price {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .buy {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1.2em;
+    border: rgb(9, 255, 0);
+    border-style:dashed;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy:hover {
+    background-color: #3e8e41;
+  }
+  
+  .prev, .next {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-40%);
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+  
+  .prev.disabled,
+  .next.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .item {
+      width: 50%;
+    }
+  }
+  
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#txt-compra-realizada{
+    font-size: 60px;
+}
+
+#imagemcheck{
+    height: 600px;
+    width: 1000px;
+}
+
+#botao-compra-ja-confirmada{
+    width: 300px;
+    height: 150px;
+    border-radius: 28px;
+}
+
+label{
+    color: #fff;
+}
+
